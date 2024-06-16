@@ -1,8 +1,17 @@
-#!/usr/bin/node
-/**
-  * updates the color of the <header> element to red
-  */
-window.onload = function myFunction () {
-  const elem = document.querySelector('header');
-  elem.style.color = 'red';
-};
+guillaume@ubuntu:~/0x15$ cat 0-main.html 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Holberton School</title>
+  </head>
+  <body>
+    <header> 
+      First HTML page
+    </header>
+    <footer>
+      Holberton School - 2017
+    </footer>
+    <script type="text/javascript" src="0-script.js"></script>
+  </body>
+</html>
+guillaume@ubuntu:~/0x15$ 
